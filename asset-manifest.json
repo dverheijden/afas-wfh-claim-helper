@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/afas-wfh-claim-helper/static/js/main.24e58668.chunk.js",
-    "main.js.map": "/afas-wfh-claim-helper/static/js/main.24e58668.chunk.js.map",
+    "main.js": "/afas-wfh-claim-helper/static/js/main.a1b13c67.chunk.js",
+    "main.js.map": "/afas-wfh-claim-helper/static/js/main.a1b13c67.chunk.js.map",
     "runtime-main.js": "/afas-wfh-claim-helper/static/js/runtime-main.0ced6f56.js",
     "runtime-main.js.map": "/afas-wfh-claim-helper/static/js/runtime-main.0ced6f56.js.map",
     "static/js/2.6529ef11.chunk.js": "/afas-wfh-claim-helper/static/js/2.6529ef11.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.0ced6f56.js",
     "static/js/2.6529ef11.chunk.js",
-    "static/js/main.24e58668.chunk.js"
+    "static/js/main.a1b13c67.chunk.js"
   ]
 }

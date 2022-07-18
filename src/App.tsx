@@ -94,6 +94,7 @@ export default function App() {
 
           <Calendar
             multiple
+            weekStartDayIndex={1}
             value={dates}
             onChange={handleDateChange}
             format="DD MMMM YYYY"

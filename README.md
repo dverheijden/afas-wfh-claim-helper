@@ -1,6 +1,6 @@
 # Working From Home - AFAS claim helper
 
-Helper website for claiming Work From Home allowance.
+Helper website for claiming Work From Home allowance, which can be found [here](https://dverheijden.github.io/afas-wfh-claim-helper/).
 
 The current process is quite verbose and cumbersome to fill out (especially given the format of the "days" field).
 As such, I created a quick tool for my dev-day to make it easier to claim your WFH allowance using AFAS.

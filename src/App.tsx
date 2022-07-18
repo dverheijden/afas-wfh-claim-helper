@@ -7,17 +7,23 @@ import {
   Container,
   createTheme,
   CssBaseline,
+  Divider,
+  Link,
   TextField,
   ThemeProvider,
   Typography,
 } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import { orange } from "@mui/material/colors";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import { orange, grey } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
     primary: {
       main: orange[500],
+    },
+    secondary: {
+      main: grey[500],
     },
   },
 });
@@ -107,6 +113,13 @@ export default function App() {
             value={datesString}
             label={"Days Summary"}
           />
+        </Box>
+        <Box sx={{ marginTop: 4 }}>
+          <Divider>
+            <Link href={"https://github.com/dverheijden/afas-wfh-claim-helper"}>
+              <GitHubIcon fontSize={"large"} sx={{ color: "secondary.main" }} />
+            </Link>
+          </Divider>
         </Box>
       </Container>
     </ThemeProvider>

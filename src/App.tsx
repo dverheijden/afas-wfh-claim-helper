@@ -95,6 +95,16 @@ export default function App() {
           <Calendar
             multiple
             weekStartDayIndex={1}
+            mapDays={({ date }) => {
+              let isWeekend = [0, 6].includes(date.weekDay.index);
+
+              if (isWeekend)
+                return {
+                  disabled: true,
+                  style: { color: "#ccc" },
+                  onClick: () => alert("You shouldn't work on weekends!"),
+                };
+            }}
             value={dates}
             onChange={handleDateChange}
             format="DD MMMM YYYY"

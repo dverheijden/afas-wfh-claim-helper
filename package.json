@@ -2,6 +2,7 @@
   "name": "afas-wfh-claim-helper",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://dverheijden.github.io/afas-wfh-claim-helper",
   "dependencies": {
     "@craco/craco": "^6.4.0",
     "@emotion/react": "^11.6.0",
